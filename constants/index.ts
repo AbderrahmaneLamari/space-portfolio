@@ -175,7 +175,12 @@ export const FULLSTACK_SKILL = [
 ] as const;
 
 export const OTHER_SKILL = [
-
+  {
+    skill_name: "Go",
+    image: "go.png",
+    width: 60,
+    height: 60,
+  },
 ] as const;
 
 export const PROJECTS = [
@@ -187,12 +192,13 @@ export const PROJECTS = [
     link: "hawiyat.org",
   },
   {
-    title: "Interactive Cards Portfolio",
+    title: "My Protfolio",
     description:
       'Step into the extraordinary world of my professional journey through the "Interactive Cards Portfolio" - an innovative and visually captivating platform that redefines the traditional portfolio experience. Ditching the conventional static layout, this portfolio leverages interactive cards to showcase my skills, projects, and personality in an engaging and dynamic manner.',
     image: "/projects/portfolio-website.png",
     link: "https://lamari.estin.pro",
   },
+
 ] as const;
 
 export const FOOTER_DATA = [
