@@ -63,17 +63,17 @@ export const SOCIALS = [
   {
     name: "Instagram",
     icon: RxInstagramLogo,
-    link: "https://instagram.com",
+    link: "https://www.instagram.com/abderrahmanlamari/",
   },
   {
     name: "Facebook",
     icon: FaFacebook,
-    link: "https://facebook.com",
+    link: "https://facebook.com/abderrahamane.webdev",
   },
   {
-    name: "Twitter",
-    icon: RxTwitterLogo,
-    link: "https://twitter.com",
+    name: "GitHub",
+    icon: RxGithubLogo,
+    link: "https://github.com/AbderrahmaneLamari",
   },
 ] as const;
 
@@ -185,11 +185,11 @@ export const OTHER_SKILL = [
 
 export const PROJECTS = [
   {
-    title: "Our Start up Website",
+    title: "My Start up Website",
     description:
       'A cloud platform built by students, for developers. We make it easy for students, startups, and researchers to build, deploy, and scale applications locally — with the simplicity of global PaaS providers, but tailored to our community',
     image: "/projects/hawiyat-screenshot.png",
-    link: "hawiyat.org",
+    link: "https://hawiyat.org",
   },
   {
     title: "My Protfolio",
@@ -198,6 +198,27 @@ export const PROJECTS = [
     image: "/projects/portfolio-website.png",
     link: "https://lamari.estin.pro",
   },
+  {
+    title: "Restaurant Website - Alger",
+    description:
+      'Welcome to our exquisite restaurant located in the heart of Algiers, where culinary artistry meets a warm and inviting ambiance. Our website is designed to provide you with a seamless experience as you explore our diverse menu, make reservations, and discover the unique flavors that define our establishment. Whether you\'re a local food enthusiast or a visitor seeking an authentic taste of Algerian cuisine, our website is your gateway to an unforgettable dining experience.',
+    image: "/projects/qg-restaurant-v2.png",
+    link: "https://qg-restaurant-v2.vercel.app/",
+  },
+  {
+    title: "Restaurant le ciloc - Constantine",
+    description:
+      'Welcome to our exquisite restaurant located in the heart of Constantine, where culinary artistry meets a warm and inviting ambiance. Our website is designed to provide you with a seamless experience as you explore our diverse menu, make reservations, and discover the unique flavors that define our establishment. Whether you\'re a local food enthusiast or a visitor seeking an authentic taste of Constantine cuisine, our website is your gateway to an unforgettable dining experience.',
+    image: "/projects/restaurant-le-ciloc.png",
+    link: "https://traditional-restaurant.onrender.com/",
+  },
+  {
+    title: "Real Estate Website",
+    description: "Explore our stunning real estate listings and find your dream home today in Bejaia! Discover a wide range of properties, from cozy apartments to luxurious villas, all showcased with high-quality images and detailed descriptions. Our user-friendly website allows you to easily browse through listings, filter by your preferences, and connect with our experienced agents for personalized assistance. Whether you're buying, selling, or renting, our platform is designed to make your real estate journey seamless and enjoyable. Start your search now and take the first step towards finding the perfect property in Bejaia!",
+    image: "/projects/bejaia-immo.png",
+    link: "https://pillar-landing-page-psi.vercel.app/",
+  },
+
 
 ] as const;
 
