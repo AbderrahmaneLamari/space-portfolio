@@ -218,6 +218,12 @@ export const PROJECTS = [
     image: "/projects/bejaia-immo.png",
     link: "https://pillar-landing-page-psi.vercel.app/",
   },
+  {
+    title: "Travelers Website",
+    description: "Explore our stunning travel listings and find your dream destination today! Discover a wide range of travel packages, from cozy getaways to luxurious vacations, all showcased with high-quality images and detailed descriptions. Our user-friendly website allows you to easily browse through listings, filter by your preferences, and connect with our experienced agents for personalized assistance. Whether you're planning a trip, booking a hotel, or looking for travel inspiration, our platform is designed to make your travel journey seamless and enjoyable. Start your search now and take the first step towards finding the perfect travel experience!",
+    image: "/projects/setif-travelers.png",
+    link: "https://setif-travelers.vercel.app/",
+  },
 
 
 ] as const;
@@ -299,3 +305,13 @@ export const NAV_LINKS = [
 export const LINKS = {
   sourceCode: "https://github.com/AbderrahmaneLamari/space-portfolio",
 };
+
+export const PROJECT_ROUTES = {
+  hawiyat: "https://www.hawiyat.org/",
+  portfolio: "https://lamari.estin.pro",
+  ciloc: "https://traditional-restaurant.onrender.com/",
+  qg_restaurant: "https://qg-restaurant-v2.vercel.app/",
+  setif_travelers: "https://setif-travelers.vercel.app/",
+  bejaia_immo: "https://pillar-landing-page-psi.vercel.app/",
+
+}
